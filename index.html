@@ -72,7 +72,7 @@
             <h1 class="text-4xl md:text-5xl font-bold text-[#A58A73] tracking-tight">Minecraft 服务器状态</h1>
             <div class="mt-6 max-w-3xl mx-auto bg-amber-100 border-l-4 border-amber-500 text-amber-700 p-4 rounded-md shadow-sm" role="alert">
                 <p class="font-bold">Tip:</p>
-                <p>整合包：ATM10-to-Sky(1.5.1)不删档更新，同步最新版本</p>
+                <p>整合包：愚者fool(0.1)根据进度定期更换不同冒险包</p>
             </div>
             <div class="mt-4">
                 <button id="join-group-btn" class="bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-all duration-200 shadow-md active:scale-95">
@@ -119,9 +119,9 @@ document.addEventListener('DOMContentLoaded', () => {
         MINECRAFT_SERVER_ADDRESS: 'sky.remyy.cn',
         // --- CORRECTED API ENDPOINTS ---
         // For live data on top cards (TPS & MSPT)
-        LIVE_PERFORMANCE_API_URL: 'https://mc2.remyy.cn/api/performance',
+        LIVE_PERFORMANCE_API_URL: 'https://cronfool.remyy.cn/api/performance',
         // For the historical chart, pointing to your new server
-        HISTORICAL_TPS_API_URL: 'https://tps.remyy.cn/api/tps/history?period=24h',
+        HISTORICAL_TPS_API_URL: 'https://tpsfool.remyy.cn/api/tps/history?period=24h',
         // --- END CORRECTION ---
         SERVER_NODES: [
             { name: '洛阳节点', url: 'https://mc.remyy.cn:12905/ping.txt' },
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
